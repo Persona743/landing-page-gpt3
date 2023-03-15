@@ -15,7 +15,7 @@ a {
 }
 
 /* angrytools.com/gradient */
-.gradient--bg {
+.gradient__bg {
     background: -moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
     background: -webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
     background: -o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
@@ -23,18 +23,18 @@ a {
     background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
 }
 
-.gradient--text {
+.gradient__text {
     background: var(--gradient-text);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.section--padding {
+.section__padding {
     padding: 4rem 6rem;
 }
 
-.section--margin {
+.section__margin {
     margin: 4rem 6rem;
 }
 
@@ -68,23 +68,23 @@ a {
     }
 }
 
-/* responsive section */
+/* media query */
 @media screen and(max-width:700px) {
-    .section--padding {
+    .section__padding {
         padding: 4rem;
     }
 
-    .section--margin {
+    .section__margin {
         padding: 4rem;
     }
 }
 
 @media screen and(max-width:550px) {
-    .section--padding {
+    .section__padding {
         padding: 4rem 2rem;
     }
 
-    .section--margin {
+    .section__margin {
         padding: 4rem 2rem;
     }
 }
