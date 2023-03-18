@@ -1,5 +1,5 @@
 import React from 'react';
-import people from '../../../public/assets/image/people.png';
+import people from '/assets/image/people.png';
 import ai from '/assets/image/ai.png';
 import './header.css';
 

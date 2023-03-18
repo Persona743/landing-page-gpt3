@@ -1,7 +1,7 @@
-import google from '../../../public/assets/image/google.png';
-import slack from '../../../public/assets/image/slack.png';
-import atlassian from '../../../public/assets/image/atlassian.png';
-import dropbox from '../../../public/assets/image/dropbox.png';
-import shopify from '../../../public/assets/image/shopify.png';
+import google from '/assets/image/google.png';
+import slack from '/assets/image/slack.png';
+import atlassian from '/assets/image/atlassian.png';
+import dropbox from '/assets/image/dropbox.png';
+import shopify from '/assets/image/shopify.png';
 
 export { google, slack, atlassian, dropbox, shopify };
